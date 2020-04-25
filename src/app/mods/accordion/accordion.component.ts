@@ -12,4 +12,8 @@ export class AccordionComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  onClick(index: number) {
+    this.openItemIndex = index;
+  }
 }
