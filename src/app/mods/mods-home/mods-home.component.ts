@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModsHomeComponent implements OnInit {
   modalOpen = false;
+  items = [
+    {
+      title: 'Why Chipotle restaurant is usually packed with people',
+      content: 'Because its food taste good',
+    },
+    {
+      title: 'What does a lemon taste like?',
+      content: 'lemon tastes like citrus',
+    },
+    { title: 'What kind of food a dog like?', content: 'Maybe dog food :)' },
+  ];
   constructor() {}
 
   ngOnInit(): void {}
